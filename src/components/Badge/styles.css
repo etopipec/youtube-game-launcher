@@ -1,0 +1,14 @@
+.badge {
+  padding: 10px 14px 9px;
+  border-radius: 5px;
+  background: rgb(254, 254, 254, .3);
+  font-family: 'poppinsmedium';
+  font-size: 14px;
+  font-weight: 500;
+  color: #FEFEFE;
+}
+
+.badge.size_small {
+  font-size: 12px;
+  padding: 10px 12px;
+}

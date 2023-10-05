@@ -1,0 +1,33 @@
+.recommended__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommended__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  margin-top: 20px;
+}
+
+.recommended__title .title__text {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FEFEFE;
+}
+
+.recommended__title .title__img {
+  margin-left: 2px;
+}
+
+.recommended__view-all {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: #FEFEFE;
+  border: none;
+  background: none;
+  cursor: pointer;
+}

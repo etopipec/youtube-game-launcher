@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { GameCard } from './GameCard/index.jsx';
+import { Recommended } from './Recommended/index.jsx';
+
 import HomeIcon from '../assets/home-icon.png';
 import LibraryIcon from '../assets/library-icon.png';
 import ShopIcon from '../assets/shop-icon.png';
@@ -10,8 +13,8 @@ import BackgroundImage from '../assets/bg1.png';
 
 const Main = () => {
   return (
-    <main className="main" style={{ backgroundImage: `url(${BackgroundImage})` }}>
-      <aside className="sidebar">
+    <main className='main' style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <aside className='sidebar'>
         <h1 className="sidebar__title">QHOF</h1>
 
         <div className="sidebar__divider"></div>
@@ -48,6 +51,14 @@ const Main = () => {
           </li>
         </ul>
       </aside>
+
+      <div className='content'>
+        <GameCard />
+
+        <div className='content__recommended'>
+          <Recommended />
+        </div>
+      </div>
     </main>
   )
 };
