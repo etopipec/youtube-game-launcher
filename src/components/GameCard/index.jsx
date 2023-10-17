@@ -15,7 +15,7 @@ const GameCard = ({ size = 'big' }) => {
           <ul className='game-card__tags'>
             {
               ['Adventure', 'Puzzle', 'Platformer'].map((text) =>
-                <li className='tags__tag'><Badge size={size}>{text}</Badge></li>)
+                <li className='tags__tag' key={text}><Badge size={size}>{text}</Badge></li>)
             }
           </ul>
         </div>

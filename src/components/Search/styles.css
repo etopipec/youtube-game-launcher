@@ -1,0 +1,31 @@
+.search {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 14px;
+  padding: 7px 21px 8px;
+  border-radius: 22.5px;
+  background: rgba(254, 254, 254, 0.30);
+  backdrop-filter: blur(25px);
+}
+
+.search__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search__input {
+  background: none;
+  border: none;
+  color: #FEFEFE;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.search__input::placeholder {
+  color: rgb(254, 254, 254, .7);
+}

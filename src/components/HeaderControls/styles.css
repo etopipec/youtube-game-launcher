@@ -1,0 +1,5 @@
+.header-controls {
+  display: flex;
+  align-items: center;
+  grid-gap: 18px;
+}
