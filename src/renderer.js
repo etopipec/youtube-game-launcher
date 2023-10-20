@@ -27,6 +27,8 @@
  */
 
 import './index.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import './components/App.jsx';
 
 console.log('👋 This message is being logged by "renderer.js", included via webpack');

@@ -1,0 +1,15 @@
+.slider__dot {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #DDDDDD;
+  border-radius: 50%;
+}
+
+.slick-dots {
+  bottom: -37px;
+}
+
+.slick-dots .slick-active .slider__dot {
+  background: #FEFEFE;
+  filter: drop-shadow(0px 0px 4px rgba(254, 254, 254, 0.90));
+}
