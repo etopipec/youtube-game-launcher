@@ -13,3 +13,9 @@
   font-size: 24px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 1000px) {
+  .chat-button__text {
+    font-size: 16px;
+  }
+}

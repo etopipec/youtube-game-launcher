@@ -19,6 +19,7 @@
 }
 
 .search__input {
+  width: 100%;
   background: none;
   border: none;
   color: #FEFEFE;
@@ -28,4 +29,10 @@
 
 .search__input::placeholder {
   color: rgb(254, 254, 254, .7);
+}
+
+@media screen and (max-width: 1000px) {
+  .search__input {
+    font-size: 16px;
+  }
 }

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   width: 416px;
-  height: 100%;
+  height: 100vh;
   padding: 57px 53px 51px 51px;
   background-color: rgba(0, 0, 0, .3);
   -webkit-user-select: none;
@@ -51,4 +51,19 @@
 
 .sidebar__chat-button {
   -webkit-app-region: no-drag;
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: max-content;
+    padding: 30px 20px;
+  }
+
+  .sidebar__title {
+    font-size: 32px;
+  }
+
+  .sidebar__menu .item__text {
+    font-size: 16px;
+  }
 }

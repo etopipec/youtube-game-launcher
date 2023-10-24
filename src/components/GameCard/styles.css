@@ -70,3 +70,21 @@
 .game-card.size_small .game-card__price {
   font-size: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+  .game-card__name {
+    font-size: 26px;
+  }
+
+  .game-card__price {
+    font-size: 18px;
+  }
+
+  .game-card.size_small .game-card__name {
+    font-size: 22px;
+  }
+
+  .game-card.size_small .game-card__price {
+    font-size: 16px;
+  }
+}

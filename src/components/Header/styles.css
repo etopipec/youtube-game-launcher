@@ -1,7 +1,13 @@
 .header {
   display: grid;
-  grid-template-columns: repeat(2, max-content);
+  grid-template-columns: 1fr max-content;
   grid-gap: 17px;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media screen and (max-width: 1050px) {
+  .header {
+    /* grid-template-columns: 280px 1fr; */
+  }
 }

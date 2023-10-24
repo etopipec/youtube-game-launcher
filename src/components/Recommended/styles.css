@@ -31,3 +31,18 @@
   background: none;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1200px) {
+  .recommended__cards {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .recommended__title .title__text {
+    font-size: 16px;
+  }
+
+  .recommended__view-all {
+    font-size: 12px;
+  }
+} 

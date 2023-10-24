@@ -26,23 +26,25 @@ const Main = () => {
           <Header />
         </div>
 
-        <div className='content__slider'>
-          <Slider onChange={(_, current) => setSliderIndex(current)}>
-            <div>
-              <div style={{height: 500}}>
-                <GameCard />
+        <div className='content__scroll-area'>
+          <div className='content__slider'>
+            <Slider onChange={(_, current) => setSliderIndex(current)}>
+              <div>
+                <div style={{height: 500}}>
+                  <GameCard />
+                </div>
               </div>
-            </div>
-            <div>
-              <div style={{height: 500}}>
-                <GameCard />
+              <div>
+                <div style={{height: 500}}>
+                  <GameCard />
+                </div>
               </div>
-            </div>
-          </Slider>
-        </div>
+            </Slider>
+          </div>
 
-        <div className='content__recommended'>
-          <Recommended />
+          <div className='content__recommended'>
+            <Recommended />
+          </div>
         </div>
       </div>
     </main>

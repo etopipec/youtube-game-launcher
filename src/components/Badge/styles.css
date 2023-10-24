@@ -12,3 +12,14 @@
   font-size: 12px;
   padding: 10px 12px;
 }
+
+@media screen and (max-width: 1000px) {
+  .badge {
+    padding: 6px 10px 7px;
+    font-size: 10px;
+  }
+
+  .badge.size_small {
+    font-size: 8px;
+  }
+}

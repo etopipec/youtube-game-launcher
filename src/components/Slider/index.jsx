@@ -12,7 +12,6 @@ const Slider = ({ children, onChange }) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     beforeChange: onChange,
-    // appendDots: _ => (<div>{_}</div>),
     customPaging: i => (
       <div className='slider__dot'></div>
     )
