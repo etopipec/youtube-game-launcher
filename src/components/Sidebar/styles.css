@@ -1,4 +1,5 @@
 .sidebar {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -6,6 +7,7 @@
   height: 100vh;
   padding: 57px 53px 51px 51px;
   background-color: rgba(0, 0, 0, .3);
+  z-index: 1;
   -webkit-user-select: none;
   -webkit-app-region: drag;
 }

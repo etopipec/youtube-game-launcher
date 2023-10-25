@@ -5,7 +5,7 @@ import { GameCard } from '../GameCard/index.jsx';
 
 import firePNG from '../../assets/fire.png';
 
-const Recommended = () => {
+const Recommended = ({ data }) => {
   return (
     <section className='recommended'>
       <header className='recommended__header'>
@@ -16,8 +16,7 @@ const Recommended = () => {
         <button className='recommended__view-all'>View All</button>
       </header>
       <div className='recommended__cards'>
-        <GameCard size={'small'} />
-        <GameCard size={'small'} />
+        { data.map(game => <GameCard key={game.id} info={game} size={'small'} />) }
       </div>
     </section>
   )
